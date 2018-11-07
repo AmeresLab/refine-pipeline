@@ -107,3 +107,11 @@ processing ensembl annotations
 
  
 
+Output description
+
+The ouput and all intermediate files are organized in the follwing folders:
+
+polyAmapping_allTimepoints : contains raw files of the pre-processing steps, including adapter trimmed, poly(A) tail filtered fastq files, mapped files, priming sites, priming sites overalapping with different annotations (ENSEMBL 3' UTRs, refSeq 3' UTRs, ENSEMBL introns, ENSEMBL exons, nonOverlapping).
+PASplots - contains nucleotide profiles for priming sites overlapping with annotations, sparated by presence or absence of the poly A signal (PAS) and separated by downstream genomic A content.
+coverage : contains list of priming sites (filterd for low genomic A content), that overlap with un-annotated regions supported by RNAseq.
+final90percent : ends_greater90percent_intergenic_n100 : contains the high condience mRNA 3' ends allAnnotations.bed : 250nt counting windows (overlapping counting windows merged), used to count quantSeq reads. countingWindows_transcriptionalOutput.bed : genomic loci to filter multimappers using SLAMdunk. These include all counting windows + all 3' UTRs + all extended counting windows. onlyIntergenic_90percent_n100: list of the intergenic counting windows created using presence of continuous RNAseq signal.
