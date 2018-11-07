@@ -1,17 +1,4 @@
-#!/usr/bin/env bash
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-##SBATCH --cpus-per-task=7
-#SBATCH --mem-per-cpu=150G
-#SBATCH --time=0-8:00:00     # 2 minutes
-#SBATCH --output=/scratch/pooja/runSLAMdunk
-#SBATCH --job-name=runSLAMdunk
-####SBATCH --array=1-4
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=pooja.bhat@imba.oeaw.ac.at
-
-
-
+#!/bin/bash
 
 PIPELINE=/groups/ameres/Pooja/Projects/refiningPipeline/pipeline/
 
