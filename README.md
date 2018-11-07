@@ -127,3 +127,7 @@ final90percent :
 3. countingWindows_transcriptionalOutput.bed : genomic loci to filter multimappers using SLAMdunk. These include all counting windows + all 3' UTRs + all extended counting windows. 
 
 4. onlyIntergenic_90percent_n100: list of the intergenic counting windows created using presence of continuous RNAseq signal.
+
+
+## Applications:
+https://www.nature.com/articles/nmeth.4435
