@@ -5,7 +5,7 @@ This is a set of scripts used to refine and extend existing mRNA 3' end annotati
 ## Installation
 
 Clone from github
-git clone https://github.com/poojabhat1690/refine-pipeline.git
+git clone https://github.com/AmeresLab/refine-pipeline.git
 cd pipeline/pre-processing/
 
 The following dependencies that have to be installed. 
